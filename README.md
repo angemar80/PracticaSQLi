@@ -17,7 +17,7 @@ validar si se tiene el sdk instalado comando dotnet --version.
 si no se tiene instalado:
 Instalar el sdk de .net
 comando winget install Microsoft.DotNet.SDK.10 
-Para ejecutar comando dotnet run
+Para ejecutar comando dotnet
 
 
 ## Resultado esperado
@@ -25,5 +25,5 @@ version segura muestra las filas que devuelve filtradas
 la version insegura muestra todas las filas
 
 ## Qué aprendí
-Con este mini proyecto practique una practica segura para evitar sqlinjection que  es parametrizar los valores para filtrar en 
+Con este mini proyecto practique una practica segura para evitar inyección SQL que  es parametrizar los valores para filtrar en 
 las consultas, el valor viaja aparte y no se interpreta como SQL
